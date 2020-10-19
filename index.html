@@ -31,7 +31,8 @@
             category: 'Kurta',
             images: [
                 '/images/kurta/button/1.jpeg',
-                '/images/kurta/button/2.jpeg'
+                '/images/kurta/button/2.jpeg',
+                '/images/kurta/button/4.jpeg'
             ]
         },
         {
@@ -44,7 +45,29 @@
                 '/images/shoes/converse/2.jpeg',
                 '/images/shoes/converse/3.jpeg'
             ]
-        }
+        },
+        {
+            name: 'Magic Cup',
+            price: '750',
+            description: 'Loads of Description will display here',
+            category: 'Gadgets',
+            images: [
+                '/images/cups/1.jpeg',
+                '/images/cups/2.jpeg',
+                '/images/cups/3.jpeg'
+            ]
+        },
+        {
+            name: 'Jeans Bag',
+            price: '1750',
+            description: 'Loads of Description will display here',
+            category: 'Bags',
+            images: [
+                '/images/bags/1.jpeg',
+                '/images/bags/2.jpeg',
+                '/images/bags/3.jpeg'
+            ]
+        },
     ]
 </script>
 
@@ -92,6 +115,8 @@
                             @click="heading='Shoes', search = ''" href="#">Shoes</a>
                         <a class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                             @click="heading='Pants', search = ''" href="#">Pants</a>
+                        <a class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
+                            @click="heading='Bags', search = ''" href="#">Bags</a>
                         <a class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                             @click="heading='Gadgets', search = ''" href="#">Gadgets</a>
                     </div>
